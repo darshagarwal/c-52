@@ -1,0 +1,113 @@
+.menu{
+display: flex;
+justify-content: space-between;
+background-color:#000000;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: #ffffff;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+.grid{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+    background-color: rgb(255, 182, 0);
+}
+
+.origami{
+    display: flex;
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    font-family: fantasy;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.header{
+    padding: 5px;
+    margin: auto;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.bodyimg{
+    position: relative;
+}
+
+.bodyimg p{
+    position: absolute;
+    top: 0%;
+    right: 25%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+h3{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-size: 25px;
+    color: white;
+    font-style: normal;
+    justify-content: space-evenly;
+}
+
+.Bodyimg{
+    position: relative;
+}
+
+.Bodyimg p{
+    position: absolute;
+    top: 0%;
+    right: 25%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+h6{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 24px;
+    color: black;
+    font-style: oblique;
+}
+
+.ContactUs{
+    position: relative;
+}
+
+.ContactUs p{
+    position: absolute;
+    top: 110px;
+    left: 140px;
+    color: red;
+    font-weight: bold;
+}
